@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.90.3">
+  <Settings>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="OSF Project ID" updates="None" val="" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="expName" updates="None" val="rst" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="recall">
+      <TextComponent name="text_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="text" updates="constant" val="RECALL gonorrea" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <CodeComponent name="code_2">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="temp=0" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="Sentences=Sentences[Order:0]" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="trial">
+      <KeyboardComponent name="key_resp_2">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="color" updates="constant" val="Black" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="7.5" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$Sentences + str($Order)" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="code">
+        <Param name="Begin Experiment" updates="constant" val="temp=0" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+        <Param name="Each Frame" updates="constant" val="if text.status==FINISHED:&amp;#10;    temp=temp1+1&amp;#10;    continueRoutine = False&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="print(Order, temp)&amp;#10;&amp;#10;if temp==Order-1:&amp;#10;    temp=0&amp;#10;    trials_2.finished=True&amp;#10;    &amp;#10;temp=temp+1&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="Sentences=Sentences[1:]" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="sen">
+      <CodeComponent name="code_3">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_3" valType="code"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" updates="None" val="order.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('Order', 2)]), OrderedDict([('Order', 3)]), OrderedDict([('Order', 4)]), OrderedDict([('Order', 5)]), OrderedDict([('Order', 6)])]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="conditionsFile" updates="None" val="sentences.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('Sentences', u'Ele chegou muito calmo no lugar onde teria o encontro com os pais.')]), OrderedDict([('Sentences', u'Voc\xea tem que agradecer \xe0 sua tia por esse lindo colar que ganhou.')]), OrderedDict([('Sentences', u'A parada de \xf4nibus dessa rua \xe9 muito bem localizada.')]), OrderedDict([('Sentences', u'Ontem bebi demais no bar da frente e hoje n\xe3o consigo nem pensar.')]), OrderedDict([('Sentences', u'Calem a boca daquele pobre diabo que n\xe3o para de gritar.')]), OrderedDict([('Sentences', u'Vamos ver o novo filme daquele diretor que est\xe1 em cartaz no cinema?')]), OrderedDict([('Sentences', u'O Brasil \xe9 o pa\xeds com o maior n\xfamero de medalhas de ouro.')]), OrderedDict([('Sentences', u'Fa\xe7o tudo o que posso para melhorar a cada dia como pessoa.')]), OrderedDict([('Sentences', u'O papel \xe9 feito de \xe1rvores que s\xe3o plantadas para esse fim.')]), OrderedDict([('Sentences', u'Eu n\xe3o gosto de quem conta mentiras e de quem trai os amigos.')]), OrderedDict([('Sentences', u'Dispunham apenas de cones e vassouras para isolar o local.')]), OrderedDict([('Sentences', u'Depois de passar por um acidente, ele n\xe3o pode formar novas mem\xf3rias.')]), OrderedDict([('Sentences', u'O concreto armado \xe9 uma t\xe9cnica de constru\xe7\xe3o muito dif\xedcil.')]), OrderedDict([('Sentences', u'Quem n\xe3o tem animais pra cuidar n\xe3o sabe como isso pode ser chato.')]), OrderedDict([('Sentences', u'No Campus do Vale h\xe1 v\xe1rias salas de aula, e tamb\xe9m um teatro.')]), OrderedDict([('Sentences', u'O teclado produz um \xf3timo som, para n\xf3s parece um piano.')]), OrderedDict([('Sentences', u'Comprei tanta coisa naquela loja cara que agora estou pobre.')]), OrderedDict([('Sentences', u'Ele ficou emocionado com o pr\xeamio que ganhou do seu chefe de setor.')]), OrderedDict([('Sentences', u'Ap\xf3s o acidente, ele precisou comprar um novo jogo de rodas.')]), OrderedDict([('Sentences', u'Carlos podia ter sentado, mas ele ficou em p\xe9 o tempo todo.')]), OrderedDict([('Sentences', u'Me diga o que eu ou minha fam\xedlia podemos fazer pra te ajudar.')]), OrderedDict([('Sentences', u'O mel\xe3o \xe9 uma fruta muito boa para comer quando est\xe1 calor.')]), OrderedDict([('Sentences', u'A bala atravessa muitas coisas, mas n\xe3o pode contra este a\xe7o aqui.')]), OrderedDict([('Sentences', u'Sempre ouvi dizer que o pinguim era peixe, mas ele \xe9 p\xe1ssaro.')]), OrderedDict([('Sentences', u'As mulheres gostam dele porque ele tem muitas coisas especiais.')]), OrderedDict([('Sentences', u'Cada um \xe9 livre para sentir o que quiser, mas n\xe3o para fazer.')]), OrderedDict([('Sentences', u'Todos os dias pela manh\xe3 vou para aquela universidade.')]), OrderedDict([('Sentences', u'Os correios da grande metr\xf3pole abrem pelas nove da manh\xe3.')]), OrderedDict([('Sentences', u'Fiz um belo bolo de anivers\xe1rio pra minha m\xe3e comer amanh\xe3.')]), OrderedDict([('Sentences', u'Para acompanhar a massa folhada, optou por um caf\xe9 com nata.')]), OrderedDict([('Sentences', u'A mosca pousou em todos os lugares da casa exceto nos quartos.')]), OrderedDict([('Sentences', u'A mo\xe7a gosta de comprar muitas pe\xe7as de roupa nas lojas do centro.')]), OrderedDict([('Sentences', u'S\xf3 se v\xea com o cora\xe7\xe3o, o essencial \xe9 invis\xedvel aos olhos.')]), OrderedDict([('Sentences', u'O branco dos olhos dele tem o mesmo tom da parede do seu quarto.')]), OrderedDict([('Sentences', u'As capas de chuva rasgaram e por isso n\xe3o funcionam mais direito.')]), OrderedDict([('Sentences', u'Tudo passou t\xe3o r\xe1pido que o casal distra\xeddo nem se deu conta.')]), OrderedDict([('Sentences', u'Faz tempo que eles n\xe3o mandam cartas pra suas amigas de inf\xe2ncia.')]), OrderedDict([('Sentences', u'O pote de \xe1gua est\xe1 cheio porque o c\xe3o n\xe3o est\xe1 com sede.')]), OrderedDict([('Sentences', u'Falei para meus clientes que eles eram os grandes vencedores.')]), OrderedDict([('Sentences', u'As aves raras que podem ser vistas no parque s\xe3o lindas.')]), OrderedDict([('Sentences', u'Imagens se formam na sua retina de cabe\xe7a para baixo.')]), OrderedDict([('Sentences', u'N\xe3o me restam d\xfavidas de que neste mato n\xe3o tem nenhum cachorro.')]), OrderedDict([('Sentences', u'Nem que eu trabalhe o dobro eu vou conseguir pagar isso tudo.')]), OrderedDict([('Sentences', u'Meu ex-noivo podia ter me avisado que n\xe3o queria mesmo se casar.')]), OrderedDict([('Sentences', u'S\xf3 quem \xe9 m\xe3e sabe como \xe9 dar de mamar pra um beb\xea rec\xe9m nascido.')]), OrderedDict([('Sentences', u'Voc\xea n\xe3o pode ir comigo porque onde eu vou \xe9 muito perigoso.')]), OrderedDict([('Sentences', u'S\xf3 iremos \xe0 praia se a sua irm\xe3 disser que ela vai tamb\xe9m.')]), OrderedDict([('Sentences', u'Estacionamentos nesta cidade a\xed geralmente s\xe3o rotativos.')]), OrderedDict([('Sentences', u'Ele mexeu tanto na receita que ela ficou com um gosto diferente.')]), OrderedDict([('Sentences', u'O meu viol\xe3o \xe9 de madeira, o das crian\xe7as \xe9 de pl\xe1stico.')]), OrderedDict([('Sentences', u'Contei com ela a vida toda at\xe9 que tive uma infeliz surpresa.')]), OrderedDict([('Sentences', u'A casa n\xe3o tinha mais teto nem parede depois do vento de ontem.')]), OrderedDict([('Sentences', u'Meus av\xf3s gostam muito de dar comida aos patos no parque \xe0 tarde.')]), OrderedDict([('Sentences', u'Combinei de buscar a minha filha na escola hoje mais tarde.')]), OrderedDict([('Sentences', u'N\xf3s somos amigos porque h\xe1 muitos anos n\xf3s \xe9ramos vizinhos.')]), OrderedDict([('Sentences', u'As casas que foram postas a alugar s\xe3o baratas e bonitas.')]), OrderedDict([('Sentences', u'O celular antigo do meu amigo foi comprado fora do estado.')]), OrderedDict([('Sentences', u'Quem sabe demais \xe0s vezes fala o que n\xe3o deve, diz o meu av\xf4.')]), OrderedDict([('Sentences', u'Placas de tr\xe2nsito precisam ser colocadas nas duas quadras.')]), OrderedDict([('Sentences', u'O carro prateado da minha tia est\xe1 totalmente estragado.')]), OrderedDict([('Sentences', u'O mesmo padre sempre reza a missa na capela para seus fi\xe9is.')]), OrderedDict([('Sentences', u'Diferente das outras \xe1rvores, estas n\xe3o perdem as folhas nunca.')]), OrderedDict([('Sentences', u'Caiu tudo o que eu tinha na m\xe3o quando a bola me atingiu.')]), OrderedDict([('Sentences', u'Admitiu que a tela em \xf3leo estava linda, mesmo preferindo aquarela.')]), OrderedDict([('Sentences', u'\xc9 claro que os peixes n\xe3o podem andar na praia, mas podem nadar no mar.')]), OrderedDict([('Sentences', u'Jo\xe3o ganhou uma bicicleta de anivers\xe1rio mas queria uma bola.')]), OrderedDict([('Sentences', u'O tio dela adorava mostrar que seu jardim \xe9 o mais verde de todos.')]), OrderedDict([('Sentences', u'Houve um tempo em que os gatos n\xe3o viviam dentro de apartamentos.')]), OrderedDict([('Sentences', u'Eu ia \xe0 academia todos os dias com meus dois cachorros.')]), OrderedDict([('Sentences', u'Meu c\xe3o \xe9 manso com quem ele gosta e bravo com quem ele odeia.')]), OrderedDict([('Sentences', u'O material dos t\xeanis de corrida \xe9 muito mais leve que este.')]), OrderedDict([('Sentences', u'Meu filho vai crescer e se tornar um m\xe9dico famoso no pa\xeds.')]), OrderedDict([('Sentences', u'Os sem\xe1foros variam entre as cores verde, vermelho e amarelo.')]), OrderedDict([('Sentences', u'Felizes s\xe3o os que t\xeam amigos, pois eles valem mais que ouro.')]), OrderedDict([('Sentences', u'O vizinho do meu amigo \xe9 um atleta muito experiente.')]), OrderedDict([('Sentences', u'Ele vai \xe0 igreja todos os dias pra pedir perd\xe3o pelos pecados.')]), OrderedDict([('Sentences', u'O plano diretor da cidade de Porto Alegre pro\xedbe aquilo.')]), OrderedDict([('Sentences', u'Condutores costumam n\xe3o prestar aten\xe7\xe3o passando pela escola.')]), OrderedDict([('Sentences', u'O livro chegou pelo correio h\xe1 poucos meses e j\xe1 est\xe1 sujo.')]), OrderedDict([('Sentences', u'Os far\xf3is dos \xf4nibus emitem luz mais forte que dos carros e motos.')]), OrderedDict([('Sentences', u'Ele ainda n\xe3o tinha ensaiado a m\xfasica, mas subiu no palco.')]), OrderedDict([('Sentences', u'Escrever frases com determinado n\xfamero de s\xedlabas \xe9 dif\xedcil.')]), OrderedDict([('Sentences', u'Chama a tua m\xe3e pra te ajudar a fazer aquele tema estranho.')]), OrderedDict([('Sentences', u'J\xe1 completei o \xe1lbum da outra Copa, quero repetir o feito.')])]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="recall"/>
+    <LoopTerminator name="trials_2"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
